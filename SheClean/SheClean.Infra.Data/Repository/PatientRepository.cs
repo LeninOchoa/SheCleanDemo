@@ -18,5 +18,11 @@ namespace SheClean.Infra.Data.Repository
         {
             return _ctx.Patients;
         }
+
+        public void Add(Patient patient)
+        {
+            _ctx.Patients.Add(patient);
+            _ctx.SaveChanges();
+        }
     }
 }

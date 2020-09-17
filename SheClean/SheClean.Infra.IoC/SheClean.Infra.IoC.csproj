@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SheClean.Application\SheClean.Application.csproj" />
+    <ProjectReference Include="..\SheClean.Infra.Bus\SheClean.Infra.Bus.csproj" />
     <ProjectReference Include="..\SheClean.Infra.Data\SheClean.Infra.Data.csproj" />
   </ItemGroup>
 
