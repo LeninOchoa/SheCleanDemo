@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Application", "She
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Infra.IoC", "SheClean.Infra.IoC\SheClean.Infra.IoC.csproj", "{39EADF19-2220-4D41-9889-6A827E7E9C11}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{5E90657F-F7D0-4C83-8078-D8371F0A6342}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{234041EF-A159-4E22-BE88-14A3EE46F768}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
