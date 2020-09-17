@@ -6,6 +6,6 @@ namespace SheClean.Domain.Interfaces
 {
     public interface IPatientRepository
     {
-        IEnumerable<Patient> GetCourses();
+        IEnumerable<Patient> GetPatients();
     }
 }

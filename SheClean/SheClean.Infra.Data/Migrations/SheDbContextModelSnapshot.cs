@@ -31,7 +31,7 @@ namespace SheClean.Infra.Data.Migrations
                     b.Property<string>("Nachname")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Vorname")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PatientNr")

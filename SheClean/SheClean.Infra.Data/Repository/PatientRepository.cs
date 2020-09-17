@@ -14,7 +14,7 @@ namespace SheClean.Infra.Data.Repository
             _ctx = ctx;
         }
 
-        public IEnumerable<Patient> GetCourses()
+        public IEnumerable<Patient> GetPatients()
         {
             return _ctx.Patients;
         }

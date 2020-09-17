@@ -1,0 +1,14 @@
+﻿@model SheClean.Application.ViewModels.PatientViewModel
+
+<div class="container body-content">
+    <div class="row patient-content">
+        @foreach (var patient in Model.Patients)
+        {
+            <div class="patient-image-container">
+                <div class="patient-image" style="background-image:url(@patient.ImageUrl)"></div>
+            </div>
+
+            <span>@patient.Nachname</span>
+        }
+    </div>
+</div>

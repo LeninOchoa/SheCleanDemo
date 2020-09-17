@@ -12,7 +12,7 @@ namespace SheClean.Infra.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: true),
+                    Vorname = table.Column<string>(nullable: true),
                     Nachname = table.Column<string>(nullable: true),
                     PatientNr = table.Column<string>(nullable: true),
                     ImageUrl = table.Column<string>(nullable: true)

@@ -14,11 +14,11 @@ namespace SheClean.Application.Services
             _patientRepository = patientRepository;
         }
 
-        public PatientViewModel GetCourses()
+        public PatientViewModel GetPatients()
         {
             return new PatientViewModel()
             {
-                Patients = _patientRepository.GetCourses()
+                Patients = _patientRepository.GetPatients()
             };
         }
     }
