@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.MVC", "SheClean.MV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Domain", "SheClean.Domain\SheClean.Domain.csproj", "{E2069CF6-F1D2-4CF9-995D-3DDDC04081E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Infra.Data", "SheClean.Infra.Data\SheClean.Infra.Data.csproj", "{A7AB4A86-4AE3-433E-815B-ABF8D585944A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{E2069CF6-F1D2-4CF9-995D-3DDDC04081E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2069CF6-F1D2-4CF9-995D-3DDDC04081E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2069CF6-F1D2-4CF9-995D-3DDDC04081E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7AB4A86-4AE3-433E-815B-ABF8D585944A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AB4A86-4AE3-433E-815B-ABF8D585944A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AB4A86-4AE3-433E-815B-ABF8D585944A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AB4A86-4AE3-433E-815B-ABF8D585944A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{540B0225-DC3C-4D3D-8E71-4A5DF876580C} = {871C966A-6FF4-4EC5-8DED-D0ACF3527BC5}
 		{E2069CF6-F1D2-4CF9-995D-3DDDC04081E9} = {1ACD90DA-F7CA-44DE-A993-9228FBC96EE8}
+		{A7AB4A86-4AE3-433E-815B-ABF8D585944A} = {FF896737-7813-44BE-A87A-DA1408D63CEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3958F72B-4ED7-47A3-ABE3-D3D843896F14}

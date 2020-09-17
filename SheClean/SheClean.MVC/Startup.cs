@@ -12,6 +12,7 @@ using SheClean.MVC.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SheClean.Infra.Data.Context;
 
 namespace SheClean.MVC
 {
@@ -32,6 +33,12 @@ namespace SheClean.MVC
                     Configuration.GetConnectionString("SheIdentityDBConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddDbContext<SheDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("SheDBConnection"));
+            });
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
