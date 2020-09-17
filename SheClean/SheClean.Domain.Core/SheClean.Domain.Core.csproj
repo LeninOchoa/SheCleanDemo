@@ -8,8 +8,4 @@
     <PackageReference Include="MediatR" Version="8.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\SheClean.Domain.Core\SheClean.Domain.Core.csproj" />
-  </ItemGroup>
-
 </Project>
