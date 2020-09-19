@@ -13,23 +13,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1ACD90
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{59DCFEEC-3CB1-4981-B7EA-31D5FC3D81B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.MVC", "SheClean.MVC\SheClean.MVC.csproj", "{540B0225-DC3C-4D3D-8E71-4A5DF876580C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.MVC", "SheClean.MVC\SheClean.MVC.csproj", "{540B0225-DC3C-4D3D-8E71-4A5DF876580C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Domain", "SheClean.Domain\SheClean.Domain.csproj", "{E2069CF6-F1D2-4CF9-995D-3DDDC04081E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Domain", "SheClean.Domain\SheClean.Domain.csproj", "{E2069CF6-F1D2-4CF9-995D-3DDDC04081E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Infra.Data", "SheClean.Infra.Data\SheClean.Infra.Data.csproj", "{A7AB4A86-4AE3-433E-815B-ABF8D585944A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Infra.Data", "SheClean.Infra.Data\SheClean.Infra.Data.csproj", "{A7AB4A86-4AE3-433E-815B-ABF8D585944A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Application", "SheClean.Application\SheClean.Application.csproj", "{0595FEF2-04DB-45E0-8890-D0F175C3D88D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Application", "SheClean.Application\SheClean.Application.csproj", "{0595FEF2-04DB-45E0-8890-D0F175C3D88D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Infra.IoC", "SheClean.Infra.IoC\SheClean.Infra.IoC.csproj", "{39EADF19-2220-4D41-9889-6A827E7E9C11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Infra.IoC", "SheClean.Infra.IoC\SheClean.Infra.IoC.csproj", "{39EADF19-2220-4D41-9889-6A827E7E9C11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{5E90657F-F7D0-4C83-8078-D8371F0A6342}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{234041EF-A159-4E22-BE88-14A3EE46F768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Infra.Bus", "SheClean.Infra.Bus\SheClean.Infra.Bus.csproj", "{EDB7577F-3440-454B-A974-4027474CA4CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Infra.Bus", "SheClean.Infra.Bus\SheClean.Infra.Bus.csproj", "{EDB7577F-3440-454B-A974-4027474CA4CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Domain.Core", "SheClean.Domain.Core\SheClean.Domain.Core.csproj", "{8F95D3F2-78FA-43A6-A4D8-8F6FE67DC318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Domain.Core", "SheClean.Domain.Core\SheClean.Domain.Core.csproj", "{8F95D3F2-78FA-43A6-A4D8-8F6FE67DC318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheCleanApi", "SheCleanApi\SheCleanApi.csproj", "{825A3D26-703B-425B-81FD-7BF8EF4B1C02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{8F95D3F2-78FA-43A6-A4D8-8F6FE67DC318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F95D3F2-78FA-43A6-A4D8-8F6FE67DC318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F95D3F2-78FA-43A6-A4D8-8F6FE67DC318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825A3D26-703B-425B-81FD-7BF8EF4B1C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825A3D26-703B-425B-81FD-7BF8EF4B1C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825A3D26-703B-425B-81FD-7BF8EF4B1C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825A3D26-703B-425B-81FD-7BF8EF4B1C02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +83,7 @@ Global
 		{39EADF19-2220-4D41-9889-6A827E7E9C11} = {5E97E9D8-D4CD-4C3A-8442-AC54A0F93954}
 		{EDB7577F-3440-454B-A974-4027474CA4CF} = {5E90657F-F7D0-4C83-8078-D8371F0A6342}
 		{8F95D3F2-78FA-43A6-A4D8-8F6FE67DC318} = {1ACD90DA-F7CA-44DE-A993-9228FBC96EE8}
+		{825A3D26-703B-425B-81FD-7BF8EF4B1C02} = {234041EF-A159-4E22-BE88-14A3EE46F768}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3958F72B-4ED7-47A3-ABE3-D3D843896F14}
