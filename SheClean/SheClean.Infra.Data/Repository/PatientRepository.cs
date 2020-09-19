@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using SheClean.Domain.Interfaces;
 using SheClean.Domain.Models;
 using SheClean.Infra.Data.Context;
@@ -14,7 +15,7 @@ namespace SheClean.Infra.Data.Repository
             _ctx = ctx;
         }
 
-        public IEnumerable<Patient> GetPatients()
+        public IQueryable<Patient> GetPatients()
         {
             return _ctx.Patients;
         }

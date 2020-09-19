@@ -19,8 +19,7 @@ namespace SheClean.MVC.Controllers
         // GET
         public IActionResult Index()
         {
-            PatientViewModel model = _patientService.GetPatients();
-            return View(model);
+            return View(_patientService.GetPatients());
         }
     }
 }

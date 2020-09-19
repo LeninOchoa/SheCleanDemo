@@ -7,7 +7,7 @@ namespace SheClean.Application.Interfaces
 {
     public interface IPatientService
     {
-        PatientViewModel GetPatients();
+        IEnumerable<PatientViewModel> GetPatients();
         void Create(PatientViewModel patientViewModel);
     }
 }

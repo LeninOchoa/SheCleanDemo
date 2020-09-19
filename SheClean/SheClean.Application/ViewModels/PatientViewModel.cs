@@ -9,6 +9,6 @@ namespace SheClean.Application.ViewModels
         public string Vorname { get; set; }
         public string Nachname { get; set; }
         public string ImageUrl { get; set; }
-        public IEnumerable<Patient> Patients { get; set; }
+        //public IEnumerable<Patient> Patients { get; set; }
     }
 }

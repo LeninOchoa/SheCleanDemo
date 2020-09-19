@@ -1,8 +1,8 @@
-﻿@model SheClean.Application.ViewModels.PatientViewModel
+﻿@model IEnumerable<SheClean.Application.ViewModels.PatientViewModel>
 
 <div class="container body-content">
     <div class="row patient-content">
-        @foreach (var patient in Model.Patients)
+        @foreach (var patient in Model)
         {
             <div class="patient-image-container">
                 <div class="patient-image" style="background-image:url(@patient.ImageUrl)"></div>
