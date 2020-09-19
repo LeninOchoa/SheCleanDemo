@@ -8,5 +8,6 @@ namespace SheClean.Application.Interfaces
     public interface IPatientService
     {
         PatientViewModel GetPatients();
+        void Create(PatientViewModel patientViewModel);
     }
 }
