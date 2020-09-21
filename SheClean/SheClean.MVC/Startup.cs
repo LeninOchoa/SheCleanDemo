@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SheClean.Infra.Data.Context;
 using SheClean.Infra.IoC;
+using SheClean.MVC.Configurations;
 
 namespace SheClean.MVC
 {
@@ -40,6 +41,8 @@ namespace SheClean.MVC
             services.AddRazorPages();
 
             services.AddMediatR(typeof(Startup));
+
+            services.RegisterAutoMapper();
 
             RegisteredServices(services);
         }

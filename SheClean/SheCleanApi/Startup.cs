@@ -16,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SheClean.Infra.Data.Context;
 using SheClean.Infra.IoC;
+using SheCleanApi.Configurations;
 
 namespace SheCleanApi
 {
@@ -44,6 +45,8 @@ namespace SheCleanApi
             });
 
             services.AddMediatR(typeof(Startup));
+
+            services.RegisterAutoMapper();
 
             RegisteredServices(services);
         }
